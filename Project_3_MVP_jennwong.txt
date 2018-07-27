@@ -1,0 +1,16 @@
+# MVP Summary: A one page document, describing the minimum viable product. This should include the following sections:
+
+
+#### Domain: A brief description of the domain you're working in, and a discussion of your familiarity with this domain
+
+I would like to explore social relationships through the proxy of online dating. I found a dataset from Kaggle which provides details of a speeding experiement done at Columbia University. I have minimal experience with dating, and less so with online dating. However, I am very interested in this question, and hope to be able to pursue it further post-Metis!
+
+
+#### Data: A table with variables name and variable type fields, listing the variables you'd like to utilize
+(See word doc in repo)
+
+
+#### Known unknowns: A list of items with an unclear level of effort, or which will require special attention
+
+There are a lot of rows with multiple columns missing values. I anticipate that this will require a lot of data engineering. Additionally, there are some columns that I am interested in in which many rows are missing. I anticipate filling it in with the mean based on the distribution. However I will do further exploration to see what is the best way to approach this problem.
+
