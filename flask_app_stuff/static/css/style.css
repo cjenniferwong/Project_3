@@ -1,0 +1,209 @@
+body{
+  background-color: #black;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-size: medium;
+  color: #000;
+}
+
+h1, h2 {
+  text-align: center;
+  font-style: Arial;
+  font-size: 60px;
+  /* font-size: extra large; */
+  color: #FEEDFF;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  /* border-bottom: 10px solid; */
+  /* line-height: 10px; */
+
+}
+
+h3{
+color: #ddd;
+text-align: center;
+font-style: Arial;
+}
+
+.heart {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.heart:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.heart_class{
+  border: 1px solid black;
+  margin: 0 auto;
+  width:80px;
+  height:80px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+
+#descript{
+
+  color = white;
+}
+
+html,body,svg { height:100% }/* With a touch of CSS for browsers who *
+ * implemented the r Geometry Property. */
+
+ #the_heart {
+   position: absolute;
+   display: block;
+   width: 200px;
+   clip: rect(0px, 100px, 300px, 0px);
+   -webkit-transition: all 0.5s ease-out;
+      -moz-transition: all 0.5s ease-out;
+           transition: all 0.5s ease-out;
+ }
+
+
+
+img{
+  border-radius: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+h2.headings {
+  /* this creates the gradient effect for the headings */
+    background: -webkit-linear-gradient(#ddd, #FEEDFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 10px solid;
+}
+button{
+  margin: 30px auto 0;
+  padding: 20px 25px;
+  text-align: center;
+  color: white;
+  display: flex;
+  font-size: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: : 100vh;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+button:hover {
+  transition: .2s;
+  background-color: black;
+  font-color: #FEEDFF;
+  letter-spacing: 4px;
+  /* text-decoration: underline; */
+
+}
+
+.table{
+  text-align: center;
+}
+
+.jumbotron{
+  background-image: url("https://www.wallpaperflare.com/static/125/123/750/bay-bridge-night-san-francisco-time-wallpaper.jpg");
+  opacity: 0.7;
+
+}
+.title{
+  text-align: left;
+  font-style: times;
+  font-size: 20px;
+
+}
+
+.form-group{
+  color: grey;
+
+}
+.your_input{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 66%;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.your_input input {
+  font-size:  16pt;
+  border-radius: 5px;
+}
+.partner_input{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 66%;
+  margin: 0 auto;
+}
+
+.review-input textarea{
+  width: 100%;
+  margin: 20px 0px;
+  height: 10em;
+  border-radius: 5px;
+}
+
+.review-input button{
+  height: 2.5em;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: large;
+  /* color: #ddd; */
+}
+
+.result{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: yellow;
+  width: 66%;
+  margin: 20px auto;
+}
+h1.button{
+  text-align: center;
+  color
+  color: white;
+
+}
